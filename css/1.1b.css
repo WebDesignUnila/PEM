@@ -1,0 +1,41 @@
+/*Body*/
+* {
+    margin:0; 
+    padding:0;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+p.title{
+    font-weight: 200;
+    font-size: 22px;
+}
+p.subtitle{
+    font-weight: 300;
+    font-size: 20px;
+}
+p{
+	font-weight: 500;
+    text-align: justify;
+}
+.card{
+	box-shadow: 0 5px 30px #000000;
+}
+.card-header{
+    border-left-width: 8px;
+	border-color: #FCA615;
+	border-left-style: solid;
+	background: #FFFFFF;
+}
+.card-body{
+    text-align: justify;
+}
+.ligthbox{
+    color: #FFFFFF;
+    background: rgb(119,89,153);
+    background: linear-gradient(90deg, rgba(119,89,153,.6) 0%, rgba(20,187,239,.6) 100%);
+}
+.container00{
+    padding: 10px;
+    margin: 10px;
+}

@@ -1,0 +1,345 @@
+/*Estilo para el fondo de pantalla cuando estamos mostrando la imagen grande*/
+#backgroundimg {
+    display:none;
+    position: absolute;
+    top:0px;left:0px;width:100%;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+    filter: alpha(opacity=80);
+    -moz-opacity: 0.8;
+    -khtml-opacity: 0.8;
+    opacity: 0.8;
+    background-color: rgba(58,58,58,1.00);
+    z-index: 0;
+}
+
+/*Estilo para la capa que contendra la imagen grande y la cruz de cerrar*/
+#previewimg {
+    display: none;
+    position: absolute;
+    margin: -100px 0px 0px 0px;
+    width: 738px;
+    height: 415px;
+    border: 1px solid #D8D7D8;
+    background-color: #775999;
+    box-shadow: 1px 1px 5px #DDD;
+    z-index: 1;
+}
+
+/*Estilo para el contenedor de la imagen grande*/
+#contentimg {
+    width: 500px;
+    height: 500px;
+}
+
+/*Estilo para el boton cerrar*/
+#closeimg {
+    position: absolute;
+    border:0px solid;
+    width:600px;
+    height:600px;
+    right:2px;
+    top:2px;
+    background:url('<i class="far fa-times-circle"></i>');
+}
+.maximize{
+    width: 100%;
+    height: 160px;
+}
+
+.imageopen01{
+    margin: -15px 0px 0px 0px;
+    height: 110px;
+}
+.txtimageopen01{
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 30px;
+    padding: -70px 0px 0px 0px;
+    margin: -90px 0px 0px 0px;
+}
+
+.imageopen02{
+    margin: -15px 0px 0px 0px;
+}
+.txtimageopen02{
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 30px;
+    padding: 30px 0px 0px 0px;
+    margin: -152px 0px 0px 0px;
+}
+
+.imageopen03{
+    margin: -10px 0px 0px 0px;
+}
+.txtimageopen03{
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 30px;
+    padding: 30px 0px 0px 0px;
+    margin: -152px 0px 0px 0px;
+}
+
+.imageopen04{
+    margin: -7px 0px 0px 0px;
+}
+.txtimageopen04{
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 30px;
+    padding: 8px 0px 0px 0px;
+    margin: -150px 0px 0px 0px;
+}
+
+.imageopen05{
+    margin: 0px 0px 0px 0px;
+}
+.txtimageopen05{
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 30px;
+    padding: 30px 0px 0px 0px;
+    margin: -150px 0px 0px 0px;
+}
+
+.imageopen06{
+    margin: -15px 0px 0px 0px;
+}
+.txtimageopen06{
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 30px;
+    padding: 30px 0px 0px 0px;
+    margin: -150px 0px 0px 0px;
+}
+
+.imageopen07{
+    margin: -15px 0px 0px 0px;
+}
+.txtimageopen07{
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 30px;
+    padding: 30px 0px 0px 0px;
+    margin: -150px 0px 0px 0px;
+}
+
+.imageopen08{
+    margin: 0px 0px 0px 0px;
+}
+.txtimageopen08{
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 30px;
+    padding: 50px 0px 0px 0px;
+    margin: -150px 0px 0px 0px;
+}
+
+.imageopen09{
+    margin: -15px 0px 0px 0px;
+}
+.txtimageopen09{
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 30px;
+    padding: 50px 0px 0px 0px;
+    margin: -150px 0px 0px 0px;
+}
+
+.imageopen10{
+    margin: -15px 0px 0px 0px;
+}
+.txtimageopen10{
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 30px;
+    padding: 30px 0px 0px 0px;
+    margin: -150px 0px 0px 0px;
+}
+
+.imageopen11{
+    margin: 0px 0px 0px 0px;
+}
+.txtimageopen11{
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 25px;
+    padding: 20px 0px 0px 0px;
+    margin: -150px 0px 0px 0px;
+}
+
+.imageopen12{
+    margin: -15px 0px 0px 0px;
+}
+.txtimageopen12{
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 25px;
+    padding: 20px 0px 0px 0px;
+    margin: -150px 0px 0px 0px;
+}
+
+.imageopen13{
+    margin: -15px 0px 0px 0px;
+}
+.txtimageopen13{
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 25px;
+    padding: 20px 0px 0px 0px;
+    margin: -150px 0px 0px 0px;
+}
+
+.imageopen14{
+    margin: -15px 0px 0px 0px;
+}
+.txtimageopen14{
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 25px;
+    padding: 40px 10px 0px 10px;
+    margin: -150px 0px 0px 0px;
+}
+
+.imageopen16{
+    margin: -15px 0px 0px 0px;
+}
+.txtimageopen16{
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 25px;
+    padding: 60px 10px 0px 10px;
+    margin: -150px 0px 0px 0px;
+}
+
+.imageopen17{
+    margin: -15px 0px 0px 0px;
+}
+.txtimageopen17{
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 25px;
+    padding: 40px 10px 0px 10px;
+    margin: -150px 0px 0px 0px;
+}
+
+.imageopen18{
+    margin: -15px 0px 0px 0px;
+}
+.txtimageopen18{
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 25px;
+    padding: 40px 10px 0px 10px;
+    margin: -150px 0px 0px 0px;
+}
+
+.imageopen19{
+    margin: 0px 0px 0px 0px;
+}
+.txtimageopen19{
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 25px;
+    padding: 40px 10px 0px 10px;
+    margin: -150px 0px 0px 0px;
+}
+
+.imageopen20{
+    margin: 0px 0px 0px 0px;
+}
+.txtimageopen20{
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 25px;
+    padding: 40px 10px 0px 10px;
+    margin: -150px 0px 0px 0px;
+}
+
+.imageopen21{
+    margin: 0px 0px 0px 0px;
+}
+.txtimageopen21{
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 25px;
+    padding: 40px 10px 0px 10px;
+    margin: -150px 0px 0px 0px;
+}
+
+.imageopen24{
+    margin: 0px 0px 0px 0px;
+}
+.txtimageopen24{
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 35px;
+    padding: 50px 10px 0px 10px;
+    margin: -150px 0px 0px 0px;
+}
+
+.imageopen27{
+    margin: 0px 0px 0px 0px;
+}
+.txtimageopen27{
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 35px;
+    padding: 50px 10px 0px 10px;
+    margin: -150px 0px 0px 0px;
+}
+
+.imageopen28{
+    margin: 0px 0px 0px 0px;
+}
+.txtimageopen28{
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 35px;
+    padding: 50px 0px 0px 0px;
+    margin: -150px 0px 0px 0px;
+}
+
+.imageopen31{
+    margin: 0px 0px 0px 0px;
+}
+.txtimageopen31{
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 35px;
+    padding: 50px 0px 0px 0px;
+    margin: -150px 0px 0px 0px;
+}
+
+.imageopen32{
+    margin: 0px 0px 0px 0px;
+}
+.txtimageopen32{
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 25px;
+    padding: 40px 0px 0px 0px;
+    margin: -150px 0px 0px 0px;
+}
+
+.imageopen33{
+    margin: 0px 0px 0px 0px;
+}
+.txtimageopen33{
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 35px;
+    padding: 50px 0px 0px 0px;
+    margin: -150px 0px 0px 0px;
+}
+
+.imageopen34{
+    margin: 0px 0px 0px 0px;
+}
+.txtimageopen34{
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 30px;
+    padding: 40px 0px 0px 0px;
+    margin: -150px 0px 0px 0px;
+}
